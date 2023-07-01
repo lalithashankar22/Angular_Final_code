@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "email": "abc@gmail.com",
+      "password": "abc@123",
+      "firstname": "Chennai",
+      "lastname": "lastname",
+      "id": 1
+    },
+    {
+      "email": "efg@gmail.com",
+      "password": "$2a$10$qh6Z3/ferayHq/nXNt1YSOMiJqLB3/oHef3GC53Ht0Yu6gGW.9FAO",
+      "firstname": "lChennai",
+      "lastname": "llastname",
+      "id": 2
+    },
+    {
+      "email": "hij@gmail.com",
+      "password": "$2a$10$VwTDE0fVa3lCuiS05.5c5.Y9FEnv5/N0r9Zgxj1538wUSGdmW4.wq",
+      "firstname": "2Chennai",
+      "lastname": "lplastname",
+      "id": 3
+    },
+    {
+      "email": "IPO@gmail.com",
+      "password": "$2a$10$bNxbL7WGlYUfqBxH8mr5c.5xxnozdavGEGnhIOLArAm0VkPUeBmWi",
+      "firstname": "2PChennai",
+      "lastname": "lPplastname",
+      "id": 5
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$tUg0ByID.6zBV4krROfARuYqXnhIxxGhDANoJjwbdS2qp9NXWmZtu",
+      "firstname": "admin",
+      "lastname": "admin",
+      "id": 6
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$5ANn0JB8j1R.Ai2CqEDOO.IuGTRvwDBvCp7eJCwYQDRG6rsxcoV0W",
+      "firstname": "admin1",
+      "lastname": "admin1",
+      "type": "admin",
+      "id": 4
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$kmQMXaTb0rN7whjcYwSleuk5zplYq43UAdwJA4TAVfVhhzNfQjkoO",
+      "firstname": "Lali",
+      "lastname": "user",
+      "empid": 123,
+      "type": "user",
+      "id": 8
+    }
+  ],
+  "leavereq": [
+    {
+      "empid": 123,
+      "name": "lali",
+      "reason": "date",
+      "details": "25 June 2023",
+      "staus": "Rejected",
+      "id": 1
+    },
+    {
+      "empid": 124,
+      "name": "siv",
+      "reason": "datefsyd",
+      "details": "28 June 2023",
+      "staus": "Rejected",
+      "id": 2
+    },
+    {
+      "empid": 123,
+      "name": "lali",
+      "details": "2023-06-30",
+      "reason": "testing",
+      "staus": "Approved",
+      "id": 3
+    },
+    {
+      "empid": 123,
+      "name": "lali",
+      "details": "2023-06-30",
+      "reason": "testing",
+      "staus": "Rejected",
+      "id": 4
+    },
+    {
+      "empid": 123,
+      "name": "lali",
+      "details": "2023-07-28",
+      "reason": "FEVER",
+      "staus": "Rejected",
+      "id": 5
+    },
+    {
+      "empid": 123,
+      "name": "lali",
+      "details": "2023-06-23",
+      "reason": "test 660",
+      "staus": "Approved",
+      "id": 6
+    },
+    {
+      "empid": 123,
+      "name": "Lali",
+      "details": "2023-10-04",
+      "reason": "i need leave for i dont know",
+      "staus": "Rejected",
+      "id": 7
+    },
+    {
+      "empid": 123,
+      "name": "Lali",
+      "details": "2023-12-28",
+      "reason": "going to  temple",
+      "staus": "Pending",
+      "id": 8
+    },
+    {
+      "empid": 123,
+      "name": "Lali",
+      "details": "2023-08-18",
+      "reason": "going to hotel translavenia",
+      "staus": "Approved",
+      "id": 9
+    },
+    {
+      "empid": 123,
+      "name": "Lali",
+      "details": "2023-07-08",
+      "reason": "This is a kind request regarding my leave On 05/02/2020 due to personal work, I won’t be able to come to the work on that day.  So please treat this email as my leave request and kindly give your approval to take leave for one day.",
+      "staus": "Approved",
+      "id": 10
+    }
+  ]
+}
