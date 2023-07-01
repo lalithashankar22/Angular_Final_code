@@ -1,0 +1,4 @@
+<p>Hi {{empname}}-{{empidy}} !</p>
+
+<app-history *ngFor="let x of service |empid :empidy" [service]="x"></app-history>
+<app-leavereq [empid]="empidy" [empnam]="empname"></app-leavereq>

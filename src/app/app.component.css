@@ -1,0 +1,14 @@
+h1 
+{ text-align: center;
+    color: #0e0a10; 
+    font-family: 'Trocchi', serif;
+     font-size: 45px; 
+     font-weight: normal; 
+     line-height: 48px; 
+     margin: 0; }
+
+#login{
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 10%;
+}

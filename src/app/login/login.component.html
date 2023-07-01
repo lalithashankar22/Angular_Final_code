@@ -1,0 +1,14 @@
+<img src="http://localhost:8081/dedalus.jpg" alt="Dedalus">
+<div  class="form_main" >
+    <div class="inputContainer">
+        <input type="text" class="inputField" id="username" placeholder="Username" [(ngModel)]="email">
+    </div>
+    
+    <div class="inputContainer">
+        <input type="password" class="inputField" id="password" placeholder="Password" [(ngModel)]="password">
+    </div>            
+    <button id="button" type="submit" (click)="login()">Submit</button>
+    <a href="register()">New user ? Signin</a>
+    <p>{{error}}</p>
+</div>
+

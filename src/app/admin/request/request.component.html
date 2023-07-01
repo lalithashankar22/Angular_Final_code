@@ -1,0 +1,12 @@
+<div id="box">
+    <h6 id="text">{{current.name}} : {{current.empid}}</h6>
+    <h4 id="details"> {{current.details}}</h4>
+    <h5 id="reason">{{current.reason}}</h5>
+    <h3 id="text">{{current.staus}}</h3> 
+    <button class="button type1" *ngIf="current.staus !='Approved'">
+        <span class="btn-txt" (click)="updateApprove(current.id) ">Grant</span>
+      </button>
+      <button class="button type1" *ngIf="current.staus !='Rejected'">
+        <span class="btn-txt" (click)="updateReject(current.id)">Dismiss</span>
+      </button>
+</div>

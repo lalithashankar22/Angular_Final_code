@@ -1,0 +1,20 @@
+<form class="form" [formGroup]="eform" (submit)="post()">
+    <p class="title">Request Leave</p>
+    <p class="message">Request for leave early to get approval .</p>
+      
+        <label>
+            <input type="text" formControlName="name" class="input" [ngModel]="empname">
+            <span>Name  [min 3 chars] </span>
+        </label>
+        <label>
+            <input  type="date" formControlName="date" class="input">
+            <span>Date  [must not be empty] </span>
+        </label>
+        <label>
+            <input  type="text" formControlName="reason" class="input">
+            <span>Reason  [min 5 chars] </span>
+        </label>
+        
+    <button class="submit" type="submit" [disabled]="!eform.valid" >Submit</button>
+    
+</form>

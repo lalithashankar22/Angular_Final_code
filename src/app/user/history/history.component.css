@@ -1,0 +1,31 @@
+#box{
+    height: 90PX;
+    margin: 30px;
+    padding: 20px;
+    width: 80%;
+    border: 2px solid black;
+    position: relative;
+}
+#reason{
+    color:  black;
+    margin-top: 20px;
+    text-align: center;
+}
+#details{
+    color: black  ;
+    float: right;
+}
+#text{
+    color: black;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    float: left;
+}
+#red
+{
+    background-color: rgb(243, 88, 88);
+}
+#green
+{
+    background-color: rgb(12, 218, 84);
+}

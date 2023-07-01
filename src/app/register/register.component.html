@@ -1,0 +1,27 @@
+<div  class="form_main" >
+    <div class="inputContainer">
+        <select name="type"  id="select" [(ngModel)]="type">
+            <option value="admin">Admin</option>
+            <option value="user">User</option>
+        </select>
+    </div> 
+    <div class="inputContainer">
+        <input type="text" class="inputField"  placeholder="Email" [(ngModel)]="email">
+    </div>
+    <div class="inputContainer">
+        <input type="text" class="inputField"  placeholder="empid" [(ngModel)]="empid">
+    </div>
+    <div class="inputContainer">
+        <input type="text" class="inputField" placeholder="firstname" [(ngModel)]="firstname">
+    </div>
+    <div class="inputContainer">
+        <input type="text" class="inputField" placeholder="lastname" [(ngModel)]="lastname">
+    </div>
+    <div class="inputContainer">
+        <input type="password" class="inputField" id="password" placeholder="Password" [(ngModel)]="password">
+    </div>   
+        
+    <button id="button" type="submit" (click)="register()">Rgister</button>
+   
+    <p>{{error}}</p>
+</div>
